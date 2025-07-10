@@ -4,7 +4,7 @@ const repoCount = 50
 // console.log(name + repoCount + " value");
 // console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String("rima-rk-tk")
+const gameName = new String("rima-rk-tk") // uses js object
 // console.log(gameName);
 // console.log(gameName[0]);
 // console.log(typeof gameName);
