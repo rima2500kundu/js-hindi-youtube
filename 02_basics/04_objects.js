@@ -40,9 +40,46 @@ const users = [
 
 // console.log(users[0].email);
 // console.log(tinderUser);
-console.log(Object.keys(tinderUser)); // output_keys in array: [ 'id', 'name', 'isLoggedin' ]
-console.log(Object.values(tinderUser)); // output_values in array: [ '123abc', 'sammy', false ]
-console.log(Object.entries(tinderUser)) // output_entries in array: [ [ 'id', '123abc' ], [ 'name', 'sammy' ], [ 'isLoggedin', false ] ]
+// console.log(Object.keys(tinderUser)); // output_keys in array: [ 'id', 'name', 'isLoggedin' ]
+// console.log(Object.values(tinderUser)); // output_values in array: [ '123abc', 'sammy', false ]
+// console.log(Object.entries(tinderUser)) // output_entries in array: [ [ 'id', '123abc' ], [ 'name', 'sammy' ], [ 'isLoggedin', false ] ]
 
-console.log(tinderUser.hasOwnProperty("isLoggedin"));
+// console.log(tinderUser.hasOwnProperty("isLoggedin"));
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+// object data destructuring
+const {courseInstructor: instructor} = course
+// console.log(instructor);
+
+// json
+/*
+{
+    "name": "rima",
+    "coursename": "js in hindi",
+    "price": "free"
+}
+*/
+
+/*
+[
+    {},
+    {},
+]
+*/
+
+const myarr = [0, 1, 2, 3, 4, 5, 6]
+console.log("A ", myarr);
+
+console.log(myarr.slice(1, 3));
+
+console.log("B ", myarr);
+
+console.log(myarr.splice(1, 3));
+
+console.log("C ", myarr);
+
 
